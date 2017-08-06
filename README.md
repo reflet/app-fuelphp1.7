@@ -26,12 +26,12 @@ dockerでPHP-fpmなどを使っている場合、コンテナ内でないとPHP�
 
 下記のようにコンテナに接続してinstallコマンドを実行する
 
-・コンテナに接続する（www-dataユーザーでログイン）
+### コンテナに接続する（www-dataユーザーでログイン）
 ```
 $ docker exec -it -u 'www-data' php bash
 ```
 
-・コンテナ内でcomposerインストール
+### コンテナ内でcomposerインストール
 ```
 $ cd www.example.com/
 $ composer install
@@ -73,4 +73,4 @@ Generating autoload files
 	Made writable: /var/www/www.example.com/fuel/app/config
 ```
 
-**tokenを聞かれる場合は、独自でgithubのトークンを作成して利用ください。**
+**※ tokenを聞かれる場合は、独自でgithubのトークンを作成して利用ください。**
