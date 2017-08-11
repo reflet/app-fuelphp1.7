@@ -35,42 +35,6 @@ $ docker exec -it -u 'www-data' php bash
 ```
 $ cd www.example.com/
 $ composer install
-Loading composer repositories with package information
-Installing dependencies (including require-dev) from lock file
-Package operations: 20 installs, 0 updates, 0 removals
-  - Installing composer/installers (v1.3.0): Downloading (100%)         
-  - Installing fuel/auth (dev-1.7/master aa9bd2e): Cloning aa9bd2e510
-  - Installing fuel/core (dev-1.7/master f614b30): Cloning f614b30e1f
-  - Installing fuel/docs (dev-1.7/master 473174d): Cloning 473174da2c
-  - Installing fuel/email (dev-1.7/master 8fbf378): Cloning 8fbf378d74
-  - Installing fuel/oil (dev-1.7/master ea37c3a): Cloning ea37c3a7fe
-  - Installing fuel/orm (dev-1.7/master 5e05c30): Cloning 5e05c30685
-  - Installing fuel/parser (dev-1.7/master 0cacd10): Cloning 0cacd10d7b
-  - Installing fuelphp/upload (2.0.2): Loading from cache
-  - Installing michelf/php-markdown (1.4.0): Loading from cache
-  - Installing psr/log (1.0.2): Loading from cache
-  - Installing monolog/monolog (1.5.0): Loading from cache
-  - Installing phpunit/php-token-stream (1.2.2): Loading from cache
-  - Installing symfony/yaml (v2.8.22): Loading from cache
-  - Installing phpunit/php-text-template (1.2.1): Loading from cache
-  - Installing phpunit/phpunit-mock-objects (1.2.3): Loading from cache
-  - Installing phpunit/php-timer (1.0.9): Loading from cache
-  - Installing phpunit/php-file-iterator (1.4.2): Loading from cache
-  - Installing phpunit/php-code-coverage (1.2.18): Loading from cache
-  - Installing phpunit/phpunit (3.7.38): Loading from cache
-monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
-monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
-monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
-monolog/monolog suggests installing mlehner/gelf-php (Allow sending log messages to a GrayLog2 server)
-monolog/monolog suggests installing raven/raven (Allow sending log messages to a Sentry server)
-phpunit/php-code-coverage suggests installing ext-xdebug (>=2.0.5)
-phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
-Generating autoload files
-> php oil r install
-	Made writable: /var/www/www.example.com/fuel/app/cache
-	Made writable: /var/www/www.example.com/fuel/app/logs
-	Made writable: /var/www/www.example.com/fuel/app/tmp
-	Made writable: /var/www/www.example.com/fuel/app/config
 ```
 
 ### install/update時にtokenを聞かれた場合
